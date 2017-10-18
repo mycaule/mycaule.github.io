@@ -21,11 +21,12 @@ Some resource to the french ecosystem of startups in Paris:
 
 - [Rude baguette](http://www.rudebaguette.com) is the best blog for news about the French startups scene.
 - [Meetup](https://www.meetup.com) has a lot of tech events every week hosted in large companies parisian offices (Mozilla, Criteo, Le Bon Coin, Microsoft, Google, Societe Generale...)
+ - [Let's Run Paris](https://www.meetup.com/Lets-Run-Paris/) Cool Meetup group with expats (mainly Americans but not only) if you like running and want to discover the best routes in Paris.
 
 ## Incubators
 
 - [Station F](https://stationf.co) is an incubator campus for startups. It is supported by Facebook and successful entrepreneur Xavier Niel.
 
-## Tips for working in Paris
+## Life in Paris
 
-- TODO
+- [Teleport](https://teleport.org/cities/paris/) gives fair review for foreigners who might want to join Paris for IT jobs.
