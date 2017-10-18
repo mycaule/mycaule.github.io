@@ -1,5 +1,5 @@
 ---
-title: Ceiling dance
+title: Fred Astaire dancing on the ceiling
 date: 2017-10-01 15:15:30
 tags:
 - fred astaire

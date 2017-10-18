@@ -1,6 +1,6 @@
 ---
-title: Swing dance
-date: 2017-10-18 15:00:00
+title: Jessica Cox at Capital Swing
+date: 2017-10-15 15:00:00
 tags:
 - sean mckeever
 - jessica cox

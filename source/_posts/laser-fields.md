@@ -1,5 +1,5 @@
 ---
-title: ha ha ! the laser fields...
+title: Managing the laser fields
 date: 2017-10-17 12:00:00
 tags:
 - laser
