@@ -14,6 +14,10 @@ Personal microblogging project.
    - see if it is possible to tweak the current theme [artemis](https://github.com/Dreyer/hexo-theme-artemis) or get back to the original forked one [apollo](https://github.com/pinggod/hexo-theme-apollo)
    - if not, here are some other candidates [Icarus](https://github.com/ppoffice/hexo-theme-icarus), [Tranquilpeak](https://github.com/LouisBarranqueiro/hexo-theme-tranquilpeak)
 
+- [ ] Make the blog more socially aware:
+   - Add ability to add comments to post using [fbcomments](https://github.com/lsmoura/hexo-fbcomments) or discourse
+   - Provide user statistics using [Google analytics](http://www.codeblocq.com/2015/12/Add-Google-Analytics-to-your-hexo-blog/) 
+
 - [ ] Write `Recommended reading` section for these themes:
   - endurance sports
   - martials arts
