@@ -1,5 +1,5 @@
 ---
-title: Kubernetes course on Udacity - Lesson 1
+title: Scalable microservices course on Udacity - Lesson 1
 date: 2017-10-18 12:49:00
 tags:
 - kubernetes

@@ -1,5 +1,5 @@
 ---
-title: Kubernetes course on Udacity - Lesson 2
+title: Scalable microservices course on Udacity - Lesson 2
 date: 2017-10-19 10:00:48
 tags:
 - kubernetes
@@ -47,34 +47,34 @@ sudo apt-get install docker.io
 
 Listing docker images and downloading nginx image.
 ```
-michel@ubuntu:~$ sudo docker images
-michel@ubuntu:~$ sudo docker pull nginx:1.10.0
+michel@ubuntu:~$ docker images
+michel@ubuntu:~$ docker pull nginx:1.10.0
 ```
 
 Running an image. The image is pulled off automatically if not found locally.
 
 ```
-michel@ubuntu:~$ sudo docker run -d nginx:1.10.0
-michel@ubuntu:~$ sudo docker run -d nginx:1.9.3
+michel@ubuntu:~$ docker run -d nginx:1.10.0
+michel@ubuntu:~$ docker run -d nginx:1.9.3
 ```
 
 Checking which instance is running
 ```
-michel@ubuntu:~$ sudo docker ps
+michel@ubuntu:~$ docker ps
 ```
 
 Stoping a docker instance
 
 ```
 # Stoping instance
-michel@ubuntu:~$ sudo docker stop [container id]
+michel@ubuntu:~$ docker stop [container id]
 # Removing instance and configuration files
-michel@ubuntu:~$ sudo docker rm [container id]
+michel@ubuntu:~$ docker rm [container id]
 ```
 
 Get the ip address of a docker instance
 ```
-sudo docker inspect [container id]
+docker inspect [container id]
 curl http://[ip address from inspect]
 ```
 
@@ -90,9 +90,16 @@ ENTRYPOINT ["hello"]
 Then build the docker image and run it as told above.
 
 ```
-sudo docker build -t hello:1.0.0
+docker build -t hello:1.0.0
 ```
 
+Pushing an image on a registry
+```
+docker tag hello:1.0.0 username/hello:1.0.0
+docker login
+docker push username/hello:1.0.0
+```
 ## To check later
 - [GCP Documentation - gcloud compute instances create](https://cloud.google.com/sdk/gcloud/reference/compute/instances/create)
   - The list of images available can be obtained with `gcloud compute images list`: `centos`, `cos`, `debian`, `rhel`, `suse`, `suse-sap`, `ubuntu-os`, `windows`, `windows-sql`...
+- [Docker docs - Deploy a registry server](https://docs.docker.com/registry/deploying/)
