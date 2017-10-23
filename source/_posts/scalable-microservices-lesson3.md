@@ -1,5 +1,5 @@
 ---
-title: scalable-microservices-lesson3
+title: Scalable microservices course on Udacity - Lesson 3
 date: 2017-10-20 14:00:58
 tags:
 - kubernetes
@@ -23,6 +23,12 @@ Configuration: http://kubernetes.io/docs/user-guide/configmap/
 Secrets: http://kubernetes.io/docs/user-guide/secrets/
 
 Configuration and secrets files are accessed through mounted volumes defined in the kubernetes YAML configuration file after loading the `secrets` and `configmap` on the master node.
+
+Service is another level of abstraction: it is a set of identical pods.
+
+Services: http://kubernetes.io/docs/user-guide/services/
+
+Sample configuration files: https://github.com/udacity/ud615/tree/master/kubernetes
 
 ###Useful commands
 
@@ -59,6 +65,11 @@ kubectl describe secrets [name]
 kubectl create configmap [name] --from-file [conf-file]
 kubectl describe configmap [name]
 
+```
+
+Create a service
+```
+kubectl create -f [yaml-file of type NodePort]
 ```
 
 ### References

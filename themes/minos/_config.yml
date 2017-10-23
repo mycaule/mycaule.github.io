@@ -1,0 +1,24 @@
+# Header
+logo_text: ToD
+menu:
+  Home: /
+  Archives: archives
+  Categories: categories
+  Tags: tags
+  About: about
+  Rss: /atom.xml
+
+# Content
+excerpt_link: Read More
+toc: false
+fancybox: true
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+
+# Share
+share_jia: false
+share_addthis: true
+
+language: en
