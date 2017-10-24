@@ -1,15 +1,17 @@
 ---
-title: about
-date: 2017-10-18 14:08:59
+title: About the blog
+layout: about
 ---
 
-# About me.
+## About me
 
-# Projects
+Here is my [LinkedIn profile](https://www.linkedin.com/in/michelhua/)
+
+## Projects
 
 See [/projects](/projects)
 
-# Book
+## Book
 
 See [/book](/book)
 
@@ -17,4 +19,6 @@ See [/book](/book)
 
 ## How did I build this blog?
 
-This blog is built using the static site generator [Hexo](https://hexo.io).
+This blog is built using the following components:
+- [Hexo](https://hexo.io) a static site generator
+- [Facebook Social Plugins](developers.facebook.com/docs/plugins/) for adding comments and social share buttons
