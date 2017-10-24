@@ -1,24 +1,20 @@
-# Header
 logo_text: ToD
+
 menu:
   Home: /
   Archives: archives
   Categories: categories
   Tags: tags
+  Book: book
   About: about
-  Rss: /atom.xml
+  RSS: /atom.xml
 
-# Content
 excerpt_link: Read More
 toc: false
 fancybox: true
 
-# Miscellaneous
-google_analytics:
+root: https://mycaule.github.io/
+google_analytics: UA-108556432-1
+facebook_social: 1968068840134141
+
 favicon: /favicon.png
-
-# Share
-share_jia: false
-share_addthis: true
-
-language: en
