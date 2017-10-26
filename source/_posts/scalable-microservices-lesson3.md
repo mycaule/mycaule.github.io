@@ -1,5 +1,5 @@
 ---
-title: Scalable microservices course on Udacity - Lesson 3
+title: Scalable microservices - Part 3
 date: 2017-10-20 14:00:58
 tags:
 - kubernetes
