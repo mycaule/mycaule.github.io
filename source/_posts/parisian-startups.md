@@ -20,8 +20,9 @@ Some resource to the french ecosystem of startups in Paris:
 ## Community
 
 - [Rude baguette](http://www.rudebaguette.com) is the best blog for news about the French startups scene.
+- [L'Usine Digitale](https://www.usine-digitale.fr/french-tech/) online news about french technology.
 - [Meetup](https://www.meetup.com) has a lot of tech events every week hosted in large companies parisian offices (Mozilla, Criteo, Le Bon Coin, Microsoft, Google, Societe Generale...)
- - [Let's Run Paris](https://www.meetup.com/Lets-Run-Paris/) Cool Meetup group with expats (mainly Americans but not only) if you like running and want to discover the best routes in Paris.
+- [Let's Run Paris](https://www.meetup.com/Lets-Run-Paris/) Cool Meetup group with expats (mainly Americans but not only) if you like running and want to discover the best routes in Paris.
 
 ## Incubators
 
