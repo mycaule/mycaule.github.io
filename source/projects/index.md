@@ -10,4 +10,6 @@ Here is a list of small open source projects I have published on GitHub:
 
 - [Ask Me Anything](https://mycaule-ama-bot.herokuapp.com/), a web chat application which understands natural language made with [Smooch](https://smooch.io/platform/) and [Dialogflow](https://dialogflow.com).
 
+- [Epures](https://github.com/mycaule/epures), a Node.js ES6 utility library to build chatbots.
+
 Contact me using [GitHub](https://github.com/mycaule) or [LinkedIn](https://www.linkedin.com/in/michelhua/).
