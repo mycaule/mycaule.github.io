@@ -7,7 +7,6 @@ menu:
   Tags: tags
   Book: book
   About: about
-  RSS: /atom.xml
 
 excerpt_link: Read More
 toc: false

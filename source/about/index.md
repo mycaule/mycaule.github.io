@@ -21,4 +21,4 @@ See [/book](/book)
 
 This blog is built using the following components:
 - [Hexo](https://hexo.io) a static site generator
-- [Facebook Social Plugins](developers.facebook.com/docs/plugins/) for adding comments and social share buttons
+- [Facebook Social Plugins](https://developers.facebook.com/docs/plugins/) for adding comments and social share buttons

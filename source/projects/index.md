@@ -1,5 +1,5 @@
 ---
-title: projects
+title: Projects
 ---
 
 Here is a list of small open source projects I have published on GitHub:
