@@ -5,8 +5,8 @@ tags:
 - kubernetes
 - microservices
 category:
-- microservices
 - mooc
+- microservices
 ---
 
 Today, I am learning more about microservices, a subject software architect Martin Fowler has been writing about a lot in his [personal blog](https://martinfowler.com/articles/microservices.html).

@@ -5,6 +5,7 @@ tags:
 - richard galliano
 - tango
 categories:
+- dancing
 - tango
 ---
 

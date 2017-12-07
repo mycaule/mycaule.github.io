@@ -6,8 +6,8 @@ tags:
 - time
 - command line
 category:
-- time tracking
 - command line
+- time tracking
 ---
 
 Some cool stuff you can do with JIRA inside the command line.

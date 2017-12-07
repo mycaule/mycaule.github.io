@@ -5,17 +5,18 @@ tags:
 - fabian salas
 - tango
 categories:
+- dancing
 - tango
 ---
 
-Two videos from Fabian Salas.
+Two videos from Fabian Salas and his partner Cecilia Gonzalez.
 
-The first one is from the *Tango Fundamentals* course.
-
-No ocho, no molinete, just pure elegant walk.
+The first one is from the *Tango Fundamentals* course: no ocho, no molinete, just pure elegant walk. The song name is *El pollito* by *Carlos di Sarli*.
 {% youtube UqX3eSNGofY %}
 
-The second one is a performance on *Gallo Ciego* with his partner Cecilia.
+A public performance on the song *Gallo Ciego* by *Osvaldo Pugliese*.
 {% youtube tTMDeCw19EE %}
 
-I really liked their very clean moves and their sense of musicality.
+I really liked the clearness of their moves and their sense of musicality.
+
+Maximum efficiency with minimum effort.

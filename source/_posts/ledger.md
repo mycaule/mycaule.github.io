@@ -6,8 +6,8 @@ tags:
 - money
 - command line
 category:
-- budget tracking
 - command line
+- budget tracking
 ---
 
 Doing basic {% link balanced accounting https://en.wikipedia.org/wiki/Bookkeeping %} from the command line with {% link Ledger CLI http://ledger-cli.org %}.

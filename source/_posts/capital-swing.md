@@ -7,6 +7,7 @@ tags:
 - dancing
 categories:
 - dancing
+- swing
 ---
 
 {% youtube udqBB0R5SPI %}

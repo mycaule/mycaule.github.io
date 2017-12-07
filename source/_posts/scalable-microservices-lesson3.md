@@ -5,8 +5,8 @@ tags:
 - kubernetes
 - microservices
 category:
-- microservices
 - mooc
+- microservices
 ---
 
 Today infrastructure is more about choose of tools rather than developing yourself. IT today is about higher level services.

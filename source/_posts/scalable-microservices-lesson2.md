@@ -5,8 +5,8 @@ tags:
 - kubernetes
 - microservices
 category:
-- microservices
 - mooc
+- microservices
 ---
 
 [Lesson 2](https://classroom.udacity.com/courses/ud615/lessons/7826816435/concepts/81980819440923) tells us how to use Docker and run an instance on Google Cloud Platform.
