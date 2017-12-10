@@ -4,6 +4,7 @@ date: 2011-11-13 16:00:04
 tags:
 - collatz conjecture
 category:
+- programming
 - mathematics
 ---
 

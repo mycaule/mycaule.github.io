@@ -6,7 +6,7 @@ tags:
 - money
 - command line
 category:
-- command line
+- management
 - budget tracking
 ---
 

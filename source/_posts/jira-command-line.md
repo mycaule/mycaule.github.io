@@ -6,7 +6,7 @@ tags:
 - time
 - command line
 category:
-- command line
+- management
 - time tracking
 ---
 

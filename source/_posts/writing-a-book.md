@@ -5,6 +5,7 @@ tags:
 - technical writing
 - publishing
 category:
+- projects
 - writing
 ---
 

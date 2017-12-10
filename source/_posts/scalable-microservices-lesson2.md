@@ -5,7 +5,7 @@ tags:
 - kubernetes
 - microservices
 category:
-- mooc
+- programming
 - microservices
 ---
 

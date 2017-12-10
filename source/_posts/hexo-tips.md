@@ -4,6 +4,7 @@ date: 2017-10-02 15:00:00
 tags:
 - hexo
 category:
+- projects
 - writing
 ---
 

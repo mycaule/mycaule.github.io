@@ -7,7 +7,8 @@ tags:
 - dancing
 - vincent cassel
 categories:
-- dancing
+- management
+- constraints
 ---
 
 {% youtube IuP6qwunOD4 %}
