@@ -14,4 +14,6 @@ Here is a list of small open source projects I have published on GitHub:
 
 - [Knowledge Graph](https://github.com/mycaule/knowledge-graph-js), a Node.js ES6 utility library to build chatbots.
 
+- [Can We Row](https://can-we-row.herokuapp.com), an application to check climate before engaging river sports based on French open data.
+
 Contact me using [GitHub](https://github.com/mycaule) or [LinkedIn](https://www.linkedin.com/in/michelhua/).
