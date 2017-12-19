@@ -16,4 +16,6 @@ Here is a list of small open source projects I have published on GitHub:
 
 - [Can We Row](https://can-we-row.herokuapp.com), an application to check climate before engaging river sports based on French open data.
 
+- [Portfolio](https://mycaule.github.io/portfolio), a Bloomberg watchlist clone for cryptocurrencies portfolio management.
+
 Contact me using [GitHub](https://github.com/mycaule) or [LinkedIn](https://www.linkedin.com/in/michelhua/).
