@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Scalable microservices - Part 3 - The other day</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Today infrastructure is more about choose of tools rather than developing yourself. IT today is about higher level services. Kubernetes is an abstraction for containers. It enables to treat a entire c">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Scalable microservices - Part 3">
+<meta property="og:url" content="http://mycaule.github.io/2017/10/20/scalable-microservices-lesson3/index.html">
+<meta property="og:site_name" content="The other day">
+<meta property="og:description" content="Today infrastructure is more about choose of tools rather than developing yourself. IT today is about higher level services. Kubernetes is an abstraction for containers. It enables to treat a entire c">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2017-10-20T12:00:58.000Z">
+<meta property="article:modified_time" content="2020-10-25T19:37:06.264Z">
+<meta property="article:author" content="Michel Hua">
+<meta property="article:tag" content="kubernetes">
+<meta property="article:tag" content="microservices">
+<meta name="twitter:card" content="summary">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108556432-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108556432-1');
+</script>
+
+
+<meta name="generator" content="Hexo 5.2.0"><link rel="alternate" href="/atom.xml" title="The other day" type="application/atom+xml">
+</head>
+
+<body>
+  
+<div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1968068840134141';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo logo-text" href="/">ToD</a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/book">Book</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://mycaule.github.io"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer"><article id="post-scalable-microservices-lesson3" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Scalable microservices - Part 3
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/20/scalable-microservices-lesson3/" class="article-date">
+  <time datetime="2017-10-20T12:00:58.000Z" itemprop="datePublished">2017-10-20</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/programming/">programming</a><span>></span><a class="article-category-link" href="/categories/programming/microservices/">microservices</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Today infrastructure is more about choose of tools rather than developing yourself. IT today is about higher level services.</p>
+<p>Kubernetes is an abstraction for containers. It enables to treat a entire cluster like a single machine.</p>
+<p>Pod have an IP address and can access volumes, they are apps containers.</p>
+<p>Using nginx to reverse proxy the app in HTTPS:</p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/iL_L3nIJ3dQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+
+<p>Monitoring and Health checks : <a target="_blank" rel="noopener" href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/">https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/</a><br>Configuration: <a target="_blank" rel="noopener" href="http://kubernetes.io/docs/user-guide/configmap/">http://kubernetes.io/docs/user-guide/configmap/</a><br>Secrets: <a target="_blank" rel="noopener" href="http://kubernetes.io/docs/user-guide/secrets/">http://kubernetes.io/docs/user-guide/secrets/</a></p>
+<p>Configuration and secrets files are accessed through mounted volumes defined in the kubernetes YAML configuration file after loading the <code>secrets</code> and <code>configmap</code> on the master node.</p>
+<p>Service is another level of abstraction: it is a set of identical pods.</p>
+<p>Services: <a target="_blank" rel="noopener" href="http://kubernetes.io/docs/user-guide/services/">http://kubernetes.io/docs/user-guide/services/</a></p>
+<p>Sample configuration files: <a target="_blank" rel="noopener" href="https://github.com/udacity/ud615/tree/master/kubernetes">https://github.com/udacity/ud615/tree/master/kubernetes</a></p>
+<p>###Useful commands</p>
+<p>Create a Kubernetes cluster</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gcloud container clusters create k0</span><br><span class="line">gcloud components install kubectl</span><br></pre></td></tr></table></figure>
+
+<p>Create a pod.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl create -f [yaml-file]</span><br></pre></td></tr></table></figure>
+
+<p>Port forwarding between the cluster and the master machine.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">kubectl port-forward monolith 10080:80</span><br><span class="line"># http:&#x2F;&#x2F;localhost:10080</span><br><span class="line">kubectl logs -f monolith</span><br></pre></td></tr></table></figure>
+
+<p>Executing from within the container</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl exec monolith --stdin --tty -c monolith &#x2F;bin&#x2F;sh</span><br></pre></td></tr></table></figure>
+
+<p>Setting nginx configuration and TLS keys.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">kubectl create secret generic [name] --from-file&#x3D;[folderls]</span><br><span class="line">kubectl describe secrets [name]</span><br><span class="line">kubectl create configmap [name] --from-file [conf-file]</span><br><span class="line">kubectl describe configmap [name]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>Create a service</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl create -f [yaml-file of type NodePort]</span><br></pre></td></tr></table></figure>
+
+<h3 id="References"><a href="#References" class="headerlink" title="References"></a>References</h3><p><a target="_blank" rel="noopener" href="http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/">Kubernetes cheatsheet</a></p>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/kubernetes/" rel="tag">kubernetes</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/microservices/" rel="tag">microservices</a></li></ul>
+
+
+        
+<div class="fb-like" data-href="https://mycaule.github.io/2017/10/20/scalable-microservices-lesson3/" data-layout="standard" data-action="like" data-show-faces="true"></div>
+        
+      </footer>
+    
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2017/10/21/kubernetes-final-thoughts/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title"><span>&lt;</span>&nbsp;
+        
+          Final thoughts on Kubernetes
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2017/10/19/scalable-microservices-lesson2/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Scalable microservices - Part 2&nbsp;<span>&gt;</span></div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+<div class="fb-comments" data-href="https://mycaule.github.io/2017/10/20/scalable-microservices-lesson3/" data-numposts="5"></div>
+
+</section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 Michel Hua
+    </div>
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+  </div>
+</body>
+</html>
