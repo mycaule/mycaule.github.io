@@ -21,7 +21,7 @@ Examples of blog that have great style:
 
 ## Using the source code
 
-Node v6.11.4
+Node v14
 ```
 npm install -g hexo
 ```
