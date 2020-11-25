@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mycaule.github.io/2020/11/28/books-2020/</loc>
+    
+    <lastmod>2020-11-25</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://mycaule.github.io/2019/07/01/matt-damon/</loc>
+    
+    <lastmod>2020-11-25</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://mycaule.github.io/2020/11/25/aikido-shirakawa/</loc>
     
     <lastmod>2020-11-25</lastmod>
@@ -472,6 +486,20 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>http://mycaule.github.io/tags/books/</loc>
+    <lastmod>2020-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mycaule.github.io/tags/speech/</loc>
+    <lastmod>2020-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -602,6 +630,20 @@
   
   <url>
     <loc>http://mycaule.github.io/categories/management/constraints/</loc>
+    <lastmod>2020-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mycaule.github.io/categories/books/</loc>
+    <lastmod>2020-11-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mycaule.github.io/categories/speech/</loc>
     <lastmod>2020-11-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
