@@ -6,7 +6,7 @@
   <link href="http://mycaule.github.io/atom.xml" rel="self"/>
   
   <link href="http://mycaule.github.io/"/>
-  <updated>2020-10-25T19:37:06.263Z</updated>
+  <updated>2020-11-25T22:33:11.568Z</updated>
   <id>http://mycaule.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Ryuji Shirakawa</title>
+    <link href="http://mycaule.github.io/2020/11/25/aikido-shirakawa/"/>
+    <id>http://mycaule.github.io/2020/11/25/aikido-shirakawa/</id>
+    <published>2020-11-25T22:27:00.000Z</published>
+    <updated>2020-11-25T22:33:11.568Z</updated>
+    
+    <content type="html"><![CDATA[<p>Back with some Aikido videos from the young generation!<br>Shirakawa showing the jujitsu roots of aikido, in a very modern and creative style.</p><div class="video-container"><iframe src="https://www.youtube.com/embed/MdjL89XdFws" frameborder="0" loading="lazy" allowfullscreen></iframe></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Back with some Aikido videos from the young generation!&lt;br&gt;Shirakawa showing the jujitsu roots of aikido, in a very modern and creative s</summary>
+      
+    
+    
+    
+    <category term="martial arts" scheme="http://mycaule.github.io/categories/martial-arts/"/>
+    
+    <category term="aikido" scheme="http://mycaule.github.io/categories/martial-arts/aikido/"/>
+    
+    
+    <category term="aikido" scheme="http://mycaule.github.io/tags/aikido/"/>
+    
+    <category term="ryuji shirakawa" scheme="http://mycaule.github.io/tags/ryuji-shirakawa/"/>
+    
+  </entry>
   
   <entry>
     <title>Starting over again</title>
@@ -542,35 +570,6 @@
     
     
     <category term="hexo" scheme="http://mycaule.github.io/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Fred Astaire dancing on the ceiling</title>
-    <link href="http://mycaule.github.io/2017/10/01/ceiling-dance/"/>
-    <id>http://mycaule.github.io/2017/10/01/ceiling-dance/</id>
-    <published>2017-10-01T13:15:30.000Z</published>
-    <updated>2020-10-25T19:37:06.253Z</updated>
-    
-    <content type="html"><![CDATA[<p>Fred Astaire doing the ceiling dance that inspired the technique behind the upside down hotel fight in Inception.</p><div class="video-container"><iframe src="https://www.youtube.com/embed/ac6o8PXthzQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div><p>How did he do that? <a href="https://www.youtube.com/watch?v=i0g3g6AvLtM" title="" target="">Using a rotating movie set!</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Fred Astaire doing the ceiling dance that inspired the technique behind the upside down hotel fight in Inception.&lt;/p&gt;
-&lt;div class=&quot;video-c</summary>
-      
-    
-    
-    
-    <category term="dancing" scheme="http://mycaule.github.io/categories/dancing/"/>
-    
-    
-    <category term="dancing" scheme="http://mycaule.github.io/tags/dancing/"/>
-    
-    <category term="fred astaire" scheme="http://mycaule.github.io/tags/fred-astaire/"/>
-    
-    <category term="ceiling dance" scheme="http://mycaule.github.io/tags/ceiling-dance/"/>
     
   </entry>
   
