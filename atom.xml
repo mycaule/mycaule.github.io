@@ -6,7 +6,7 @@
   <link href="http://mycaule.github.io/atom.xml" rel="self"/>
   
   <link href="http://mycaule.github.io/"/>
-  <updated>2020-11-25T22:42:52.514Z</updated>
+  <updated>2020-12-09T21:49:46.542Z</updated>
   <id>http://mycaule.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>The Wire - Playing Chess</title>
+    <link href="http://mycaule.github.io/2020/12/09/thewire-chess/"/>
+    <id>http://mycaule.github.io/2020/12/09/thewire-chess/</id>
+    <published>2020-12-09T21:40:00.000Z</published>
+    <updated>2020-12-09T21:49:46.542Z</updated>
+    
+    <content type="html"><![CDATA[<p>Gangsta teaching his buddies how to play chess.</p><div class="video-container"><iframe src="https://www.youtube.com/embed/ztc7o0NzFrE" frameborder="0" loading="lazy" allowfullscreen></iframe></div><p><a href="https://www.goodreads.com/book/show/749622.How_Life_Imitates_Chess?from_search=true&from_srp=true&qid=2Lilap5uO1&rank=1">chess imitates life</a>.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Gangsta teaching his buddies how to play chess.&lt;/p&gt;
+&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ztc7o0NzFrE&quot; </summary>
+      
+    
+    
+    
+    <category term="bad ass" scheme="http://mycaule.github.io/categories/bad-ass/"/>
+    
+    
+    <category term="chess" scheme="http://mycaule.github.io/tags/chess/"/>
+    
+    <category term="bad ass" scheme="http://mycaule.github.io/tags/bad-ass/"/>
+    
+  </entry>
   
   <entry>
     <title>Ryuji Shirakawa</title>
@@ -41,33 +68,6 @@
     <category term="aikido" scheme="http://mycaule.github.io/tags/aikido/"/>
     
     <category term="ryuji shirakawa" scheme="http://mycaule.github.io/tags/ryuji-shirakawa/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>The Wire - Playing Chess</title>
-    <link href="http://mycaule.github.io/2020/11/25/thewire-chess/"/>
-    <id>http://mycaule.github.io/2020/11/25/thewire-chess/</id>
-    <published>2020-11-25T22:27:00.000Z</published>
-    <updated>2020-12-09T21:45:12.299Z</updated>
-    
-    <content type="html"><![CDATA[<p>Gangsta teaching his buddies how to play chess.</p><div class="video-container"><iframe src="https://www.youtube.com/embed/ztc7o0NzFrE" frameborder="0" loading="lazy" allowfullscreen></iframe></div><p><a href="https://www.goodreads.com/book/show/749622.How_Life_Imitates_Chess?from_search=true&from_srp=true&qid=2Lilap5uO1&rank=1">chess imitates life</a>.</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Gangsta teaching his buddies how to play chess.&lt;/p&gt;
-&lt;div class=&quot;video-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ztc7o0NzFrE&quot; </summary>
-      
-    
-    
-    
-    <category term="bad ass" scheme="http://mycaule.github.io/categories/bad-ass/"/>
-    
-    
-    <category term="chess" scheme="http://mycaule.github.io/tags/chess/"/>
-    
-    <category term="bad ass" scheme="http://mycaule.github.io/tags/bad-ass/"/>
     
   </entry>
   
