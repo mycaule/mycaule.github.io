@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://mycaule.github.io/2020/11/25/thewire-chess/</loc>
+    
+    <lastmod>2020-12-09</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://mycaule.github.io/2020/08/01/waltz-veron/</loc>
     
     <lastmod>2020-11-25</lastmod>
@@ -221,7 +228,7 @@
 
   <url>
     <loc>http://mycaule.github.io/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -229,252 +236,266 @@
   
   <url>
     <loc>http://mycaule.github.io/tags/sean-mckeever/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/jessica-cox/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/dancing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/nobuyoshi-tamura/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/aikido/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/fred-astaire/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/ceiling-dance/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/chatbot/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/collatz-conjecture/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/drawing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/boxing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/es6/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/canne-francaise/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/savate/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/hexo/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/fabian-salas/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/tango/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/jira/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/time/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/command-line/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/kubernetes/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/microservices/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/ledger/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/money/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/laser/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/capoeira/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/vincent-cassel/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/richard-galliano/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/startups/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/paris/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/music/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/80s/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/management/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/technical-writing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/publishing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/tags/ryuji-shirakawa/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mycaule.github.io/tags/chess/</loc>
+    <lastmod>2020-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mycaule.github.io/tags/bad-ass/</loc>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -483,133 +504,140 @@
   
   <url>
     <loc>http://mycaule.github.io/categories/dancing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/martial-arts/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/projects/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/dancing/swing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/programming/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/martial-arts/aikido/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/martial-arts/boxing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/martial-arts/weaponry/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/projects/writing/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/dancing/tango/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/management/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/programming/mathematics/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/paris/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/music/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/programming/microservices/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/programming/es6/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/management/time-tracking/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/management/budget-tracking/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://mycaule.github.io/categories/management/constraints/</loc>
-    <lastmod>2020-11-25</lastmod>
+    <lastmod>2020-12-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://mycaule.github.io/categories/bad-ass/</loc>
+    <lastmod>2020-12-09</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
