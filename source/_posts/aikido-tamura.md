@@ -9,6 +9,6 @@ categories:
 - aikido
 ---
 
-Great demonstration of fluidity by master Tamura.
+A great demonstration of fluidity by Master Tamura.
 
 {% youtube -YD5X7j8NiU %}

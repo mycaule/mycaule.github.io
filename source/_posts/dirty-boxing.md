@@ -8,6 +8,6 @@ categories:
 - boxing
 ---
 
-Men can loose their mind in a fraction of a second, even highly trained athletes.
+Men can lose their minds in a fraction of a second, even highly trained athletes.
 
 {% youtube HjuaeKMeRf8 %}

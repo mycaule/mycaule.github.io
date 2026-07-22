@@ -11,7 +11,7 @@ category:
 
 Today, I am learning more about microservices, a subject software architect Martin Fowler has been writing about a lot in his [personal blog](https://martinfowler.com/articles/microservices.html).
 
-Kubernetes looks like a cool technology. Google, who supports it, has an online course [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615) intended for both devops and developers.
+Kubernetes looks like a cool technology. Google, which backs it, offers an online course, [Scalable Microservices with Kubernetes](https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615), aimed at both devops and developers.
 
 The course has 4 lessons of 2 hours each for the following topics:
  - Introduction to Microservices
@@ -19,16 +19,16 @@ The course has 4 lessons of 2 hours each for the following topics:
  - Kubernetes
  - Deploying Microservices
 
-Here are my notes for the lesson 1 [Introduction to microservices](https://classroom.udacity.com/courses/ud615/lessons/7826112332/concepts/81910831080923):
+Here are my notes for lesson 1, [Introduction to microservices](https://classroom.udacity.com/courses/ud615/lessons/7826112332/concepts/81910831080923):
 
-The course uses the following technology to demonstrate : Docker, Go language, Google Cloud Container Engine.
+The course demonstrates with the following technologies: Docker, the Go language, and Google Cloud Container Engine.
 
-The software industry is pressuring developers to release more often and more quickly. Microservices allows them to do with a simplified lifecycle but require tools to use automation and infrastructure capacity to their limits.
+The software industry is pressuring developers to release more often and more quickly. Microservices let them do so with a simplified lifecycle, but they require tooling that pushes automation and infrastructure to their limits.
 
-Lesson 1 asks us build a Go project [from Github](https://github.com/udacity/ud615/tree/master/app) which is a webserver doing authentication and building separate microservices from it.
+Lesson 1 asks us to build a Go project [from GitHub](https://github.com/udacity/ud615/tree/master/app) — a web server handling authentication — and then to split separate microservices out of it.
 
 More stuff coming tomorrow with [Lesson 2](https://classroom.udacity.com/courses/ud615/lessons/7826816435/concepts/81980819440923).
 
 ## To check later
 
-Kelsey Hightower, main contributor of Kubernetes at Google has written [a more comprehensive tutorial](https://github.com/kelseyhightower/kubernetes-the-hard-way) on GitHub.
+Kelsey Hightower, a main contributor to Kubernetes at Google, has written [a more comprehensive tutorial](https://github.com/kelseyhightower/kubernetes-the-hard-way) on GitHub.
