@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>The other day</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Ideas, productivity tips and other hacks">
+<meta property="og:type" content="website">
+<meta property="og:title" content="The other day">
+<meta property="og:url" content="http://mycaule.github.io/page/2/index.html">
+<meta property="og:site_name" content="The other day">
+<meta property="og:description" content="Ideas, productivity tips and other hacks">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="Michel Hua">
+<meta name="twitter:card" content="summary">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="/webfonts/ptserif/main.css" rel='stylesheet' type='text/css'>
+  <link href="/webfonts/source-code-pro/main.css" rel="stylesheet" type="text/css">
+  
+<link rel="stylesheet" href="/css/style.css">
+
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108556432-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108556432-1');
+</script>
+
+
+<meta name="generator" content="Hexo 8.1.2"><link rel="alternate" href="/atom.xml" title="The other day" type="application/atom+xml">
+</head>
+
+<body>
+  
+<div id="fb-root"></div>
+<script>
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1968068840134141';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+  <div id="container">
+    <header id="header">
+  <div id="header-outer" class="outer">
+    <div id="header-inner" class="inner">
+      <a id="main-nav-toggle" class="nav-icon" href="javascript:;"></a>
+      <a id="logo" class="logo logo-text" href="/">ToD</a>
+      <nav id="main-nav">
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/categories">Categories</a>
+        
+          <a class="main-nav-link" href="/tags">Tags</a>
+        
+          <a class="main-nav-link" href="/book">Book</a>
+        
+          <a class="main-nav-link" href="/about">About</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        <div id="search-form-wrap">
+          <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://mycaule.github.io"></form>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+    <section id="main" class="outer">
+      <article id="post-rondibois" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/23/rondibois/">The modern values of craftmanship</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/23/rondibois/" class="article-date">
+  <time datetime="2017-10-23T10:07:24.000Z" itemprop="datePublished">2017-10-23</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/management/">management</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <div class="video-container"><iframe src="https://player.vimeo.com/video/239426785" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/management/" rel="tag">management</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-kubernetes-final-thoughts" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/21/kubernetes-final-thoughts/">Final thoughts on Kubernetes</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/21/kubernetes-final-thoughts/" class="article-date">
+  <time datetime="2017-10-21T16:41:08.000Z" itemprop="datePublished">2017-10-21</time>
+</a>
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>In production, define deployments to set up replicas in case of failure, then modify those deployments to roll out updates gradually.</p>
+<p>This works best with the stack below; changing any of these components may require some tweaking:</p>
+<ul>
+<li>Any continuous integration build tool</li>
+<li>Container technology: Docker</li>
+<li>Kubernetes</li>
+<li>Cloud platform: Google Cloud Platform</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">kubectl describe deployments [name]</span><br><span class="line">kubectl get replicasets</span><br><span class="line"></span><br><span class="line">kubectl apply -f [deployment-yaml]</span><br></pre></td></tr></table></figure>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/kubernetes/" rel="tag">kubernetes</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/microservices/" rel="tag">microservices</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-scalable-microservices-lesson3" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/20/scalable-microservices-lesson3/">Scalable microservices - Part 3</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/20/scalable-microservices-lesson3/" class="article-date">
+  <time datetime="2017-10-20T12:00:58.000Z" itemprop="datePublished">2017-10-20</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/programming/">programming</a><span>></span><a class="article-category-link" href="/categories/programming/microservices/">microservices</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Infrastructure today is more about choosing tools than building them yourself. IT has moved up to higher-level services.</p>
+<p>Kubernetes is an abstraction over containers. It lets you treat an entire cluster as if it were a single machine.</p>
+<p>Pods have an IP address and can access volumes; they are the containers your apps run in.</p>
+<p>Using nginx to reverse proxy the app in HTTPS:</p>
+<div class="video-container"><iframe src="https://www.youtube.com/embed/iL_L3nIJ3dQ" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+
+<p>Monitoring and health checks: <a target="_blank" rel="noopener" href="https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/">https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/</a><br>Configuration: <a target="_blank" rel="noopener" href="http://kubernetes.io/docs/user-guide/configmap/">http://kubernetes.io/docs/user-guide/configmap/</a><br>Secrets: <a target="_blank" rel="noopener" href="http://kubernetes.io/docs/user-guide/secrets/">http://kubernetes.io/docs/user-guide/secrets/</a></p>
+<p>Configuration and secrets files are accessed through mounted volumes defined in the Kubernetes YAML configuration file, once the <code>secrets</code> and <code>configmap</code> have been loaded on the master node.</p>
+<p>A service is another level of abstraction: a set of identical pods.</p>
+<p>Services: <a target="_blank" rel="noopener" href="http://kubernetes.io/docs/user-guide/services/">http://kubernetes.io/docs/user-guide/services/</a></p>
+<p>Sample configuration files: <a target="_blank" rel="noopener" href="https://github.com/udacity/ud615/tree/master/kubernetes">https://github.com/udacity/ud615/tree/master/kubernetes</a></p>
+<h3 id="Useful-commands"><a href="#Useful-commands" class="headerlink" title="Useful commands"></a>Useful commands</h3><p>Create a Kubernetes cluster.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gcloud container clusters create k0</span><br><span class="line">gcloud components install kubectl</span><br></pre></td></tr></table></figure>
+
+<p>Create a pod.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl create -f [yaml-file]</span><br></pre></td></tr></table></figure>
+
+<p>Forward a port between the cluster and the master machine.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">kubectl port-forward monolith 10080:80</span><br><span class="line"># http://localhost:10080</span><br><span class="line">kubectl logs -f monolith</span><br></pre></td></tr></table></figure>
+
+<p>Execute a command from within the container.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl exec monolith --stdin --tty -c monolith /bin/sh</span><br></pre></td></tr></table></figure>
+
+<p>Setting nginx configuration and TLS keys.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">kubectl create secret generic [name] --from-file=[folderls]</span><br><span class="line">kubectl describe secrets [name]</span><br><span class="line">kubectl create configmap [name] --from-file [conf-file]</span><br><span class="line">kubectl describe configmap [name]</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>Create a service</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">kubectl create -f [yaml-file of type NodePort]</span><br></pre></td></tr></table></figure>
+
+<h3 id="References"><a href="#References" class="headerlink" title="References"></a>References</h3><p><a target="_blank" rel="noopener" href="http://kubernetes.io/docs/user-guide/kubectl-cheatsheet/">Kubernetes cheatsheet</a></p>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/kubernetes/" rel="tag">kubernetes</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/microservices/" rel="tag">microservices</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-scalable-microservices-lesson2" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/19/scalable-microservices-lesson2/">Scalable microservices - Part 2</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/19/scalable-microservices-lesson2/" class="article-date">
+  <time datetime="2017-10-19T08:00:48.000Z" itemprop="datePublished">2017-10-19</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/programming/">programming</a><span>></span><a class="article-category-link" href="/categories/programming/microservices/">microservices</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><a target="_blank" rel="noopener" href="https://classroom.udacity.com/courses/ud615/lessons/7826816435/concepts/81980819440923">Lesson 2</a> tells us how to use Docker and run an instance on Google Cloud Platform.</p>
+<p>Using Google Compute Engine, we first create a new Linux image and connect to it through SSH, then run Docker containers on top of it.</p>
+<p>The main advantage of containers is that you can run several isolated environments on the same operating system. You can pull an image from a repository and manage instances with the <code>docker</code> command line tool much as you would a regular UNIX process.</p>
+<p>Docker images can be either downloaded or custom-built using Dockerfiles. The developer’s responsibility here is to deliver the application AND the configuration file for the container.</p>
+<p>The images can then be pushed to a public or private registry for reuse. The most notable are <a target="_blank" rel="noopener" href="https://hub.docker.com/">Docker Hub</a>, <a target="_blank" rel="noopener" href="https://quay.io/">Quay</a> and <a target="_blank" rel="noopener" href="https://cloud.google.com/container-registry/docs/">Google Cloud Registry</a>.</p>
+<h2 id="Useful-commands"><a href="#Useful-commands" class="headerlink" title="Useful commands"></a>Useful commands</h2><p>Creating an instance called <code>ubuntu</code> on <em>Compute Engine</em>.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcloud compute instances create ubuntu --image-project ubuntu-os-cloud --image ubuntu-1604-xenial-v20160420c</span><br></pre></td></tr></table></figure>
+
+<p>Connecting to it over SSH.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcloud compute ssh ubuntu</span><br></pre></td></tr></table></figure>
+
+<p>Running nginx on the remote host.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">michel@ubuntu:~$ sudo apt-get install nginx</span><br><span class="line">michel@ubuntu:~$ sudo systemctl start nginx</span><br><span class="line">michel@ubuntu:~$ curl localhost</span><br></pre></td></tr></table></figure>
+
+<p>Installing docker on the operating system.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install docker.io</span><br></pre></td></tr></table></figure>
+
+<p>Listing Docker images and downloading the nginx image.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">michel@ubuntu:~$ docker images</span><br><span class="line">michel@ubuntu:~$ docker pull nginx:1.10.0</span><br></pre></td></tr></table></figure>
+
+<p>Running an image. The image is pulled automatically if it is not found locally.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">michel@ubuntu:~$ docker run -d nginx:1.10.0</span><br><span class="line">michel@ubuntu:~$ docker run -d nginx:1.9.3</span><br></pre></td></tr></table></figure>
+
+<p>Checking which instances are running.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">michel@ubuntu:~$ docker ps</span><br></pre></td></tr></table></figure>
+
+<p>Stopping a Docker instance.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># Stopping instance</span><br><span class="line">michel@ubuntu:~$ docker stop [container id]</span><br><span class="line"># Removing instance and configuration files</span><br><span class="line">michel@ubuntu:~$ docker rm [container id]</span><br></pre></td></tr></table></figure>
+
+<p>Getting the IP address of a Docker instance.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker inspect [container id]</span><br><span class="line">curl http://[ip address from inspect]</span><br></pre></td></tr></table></figure>
+
+<p>A sample Dockerfile defining a base image (Alpine Linux).</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">FROM alpine:3.1</span><br><span class="line">MAINTAINER Kelsey Hightower &lt;kelsey.hightower@gmail.com&gt;</span><br><span class="line">ADD hello /usr/bin/hello</span><br><span class="line">ENTRYPOINT [&quot;hello&quot;]</span><br></pre></td></tr></table></figure>
+
+<p>Then build the Docker image and run it as described above.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker build -t hello:1.0.0</span><br></pre></td></tr></table></figure>
+
+<p>Pushing an image to a registry.</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">docker tag hello:1.0.0 username/hello:1.0.0</span><br><span class="line">docker login</span><br><span class="line">docker push username/hello:1.0.0</span><br></pre></td></tr></table></figure>
+<h2 id="To-check-later"><a href="#To-check-later" class="headerlink" title="To check later"></a>To check later</h2><ul>
+<li><a target="_blank" rel="noopener" href="https://cloud.google.com/sdk/gcloud/reference/compute/instances/create">GCP Documentation - gcloud compute instances create</a><ul>
+<li>The list of images available can be obtained with <code>gcloud compute images list</code>: <code>centos</code>, <code>cos</code>, <code>debian</code>, <code>rhel</code>, <code>suse</code>, <code>suse-sap</code>, <code>ubuntu-os</code>, <code>windows</code>, <code>windows-sql</code>…</li>
+</ul>
+</li>
+<li><a target="_blank" rel="noopener" href="https://docs.docker.com/registry/deploying/">Docker docs - Deploy a registry server</a></li>
+</ul>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/kubernetes/" rel="tag">kubernetes</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/microservices/" rel="tag">microservices</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-scalable-microservices-lesson1" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/18/scalable-microservices-lesson1/">Scalable microservices - Part 1</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/18/scalable-microservices-lesson1/" class="article-date">
+  <time datetime="2017-10-18T10:49:00.000Z" itemprop="datePublished">2017-10-18</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/programming/">programming</a><span>></span><a class="article-category-link" href="/categories/programming/microservices/">microservices</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Today, I am learning more about microservices, a subject software architect Martin Fowler has been writing about a lot in his <a target="_blank" rel="noopener" href="https://martinfowler.com/articles/microservices.html">personal blog</a>.</p>
+<p>Kubernetes looks like a cool technology. Google, which backs it, offers an online course, <a target="_blank" rel="noopener" href="https://www.udacity.com/course/scalable-microservices-with-kubernetes--ud615">Scalable Microservices with Kubernetes</a>, aimed at both devops and developers.</p>
+<p>The course has 4 lessons of 2 hours each for the following topics:</p>
+<ul>
+<li>Introduction to Microservices</li>
+<li>Building the Containers with Docker</li>
+<li>Kubernetes</li>
+<li>Deploying Microservices</li>
+</ul>
+<p>Here are my notes for lesson 1, <a target="_blank" rel="noopener" href="https://classroom.udacity.com/courses/ud615/lessons/7826112332/concepts/81910831080923">Introduction to microservices</a>:</p>
+<p>The course demonstrates with the following technologies: Docker, the Go language, and Google Cloud Container Engine.</p>
+<p>The software industry is pressuring developers to release more often and more quickly. Microservices let them do so with a simplified lifecycle, but they require tooling that pushes automation and infrastructure to their limits.</p>
+<p>Lesson 1 asks us to build a Go project <a target="_blank" rel="noopener" href="https://github.com/udacity/ud615/tree/master/app">from GitHub</a> — a web server handling authentication — and then to split separate microservices out of it.</p>
+<p>More stuff coming tomorrow with <a target="_blank" rel="noopener" href="https://classroom.udacity.com/courses/ud615/lessons/7826816435/concepts/81980819440923">Lesson 2</a>.</p>
+<h2 id="To-check-later"><a href="#To-check-later" class="headerlink" title="To check later"></a>To check later</h2><p>Kelsey Hightower, a main contributor to Kubernetes at Google, has written <a target="_blank" rel="noopener" href="https://github.com/kelseyhightower/kubernetes-the-hard-way">a more comprehensive tutorial</a> on GitHub.</p>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/kubernetes/" rel="tag">kubernetes</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/microservices/" rel="tag">microservices</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-laser-fields" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/17/laser-fields/">Managing the laser fields</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/17/laser-fields/" class="article-date">
+  <time datetime="2017-10-17T10:00:00.000Z" itemprop="datePublished">2017-10-17</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/management/">management</a><span>></span><a class="article-category-link" href="/categories/management/constraints/">constraints</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <div class="video-container"><iframe src="https://www.youtube.com/embed/IuP6qwunOD4" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/capoeira/" rel="tag">capoeira</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dancing/" rel="tag">dancing</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/laser/" rel="tag">laser</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/vincent-cassel/" rel="tag">vincent cassel</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-writing-a-book" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/16/writing-a-book/">Writing a book</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/16/writing-a-book/" class="article-date">
+  <time datetime="2017-10-16T14:49:38.000Z" itemprop="datePublished">2017-10-16</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/projects/">projects</a><span>></span><a class="article-category-link" href="/categories/projects/writing/">writing</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Today I came across some interesting resources on <a href="https://github.com/TalAter/awesome-book-authoring" title="" target="">book authoring</a>.</p>
+<p>Software book author Scott Meyers <a href="http://www.aristeia.com/authorAdvice.html" title="" target="">gives developers tips</a> on how to manage such a project.</p>
+<p>As Tim Ferriss wrote, and proved with <em>The 4-Hour Workweek</em>, writing a book can be a one-man business muse.</p>
+<a href="https://hackernoon.com/living-the-future-of-technical-writing-2f368bd0a272" title="" target="">Modern tools</a> such as <a href="http://asciidoctor.org/docs/asciidoc-writers-guide/" title="" target="">Asciidoc</a> and O'Reilly's <a href="https://atlas.oreilly.com/" title="" target="">Atlas</a> streamline the workflow, to the point that it closely resembles a software engineering workflow, with builds and continuous integration.
+
+<h2 id="References"><a href="#References" class="headerlink" title="References"></a>References</h2><ul>
+<li><a target="_blank" rel="noopener" href="http://aosabook.org/en/index.html">The architecture of Open Source Applications</a></li>
+<li><a target="_blank" rel="noopener" href="https://zenhabits.net/writing/">Zen Habits - Training to be a good writer</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.forbes.com/sites/dailymuse/2016/06/22/how-to-write-a-linkedin-article-if-youre-not-a-writer-and-still-sound-credible">Forbes - How to write a LinkedIn article if you’re not a writer</a></li>
+</ul>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/publishing/" rel="tag">publishing</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/technical-writing/" rel="tag">technical writing</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-capital-swing" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/15/capital-swing/">Jessica Cox at Capital Swing</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/15/capital-swing/" class="article-date">
+  <time datetime="2017-10-15T13:00:00.000Z" itemprop="datePublished">2017-10-15</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/dancing/">dancing</a><span>></span><a class="article-category-link" href="/categories/dancing/swing/">swing</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <div class="video-container"><iframe src="https://www.youtube.com/embed/udqBB0R5SPI" frameborder="0" loading="lazy" allowfullscreen></iframe></div>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/dancing/" rel="tag">dancing</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jessica-cox/" rel="tag">jessica cox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sean-mckeever/" rel="tag">sean mckeever</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-ledger" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/13/ledger/">Accounting from the CLI with Ledger</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/13/ledger/" class="article-date">
+  <time datetime="2017-10-13T14:04:29.000Z" itemprop="datePublished">2017-10-13</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/management/">management</a><span>></span><a class="article-category-link" href="/categories/management/budget-tracking/">budget tracking</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Doing basic <a href="https://en.wikipedia.org/wiki/Bookkeeping" title="" target="">balanced accounting</a> from the command line with <a href="http://ledger-cli.org/" title="" target="">Ledger CLI</a>.</p>
+<p>Ledger is an unopinionated tool for logging every financial transaction you make in plain text.</p>
+<p>Logging directly from the Atom text editor with the <a href="https://atom.io/packages/language-ledger" title="" target="">language-ledger</a> plugin.</p>
+<img src="/2017/10/13/ledger/balancing.png" class="">
+
+<p>Correcting mistakes with the debugger and generating a detailed report.</p>
+<img src="/2017/10/13/ledger/debuging.png" class="">
+
+<p>A summary by category, to see how much I have spent on lunch at work so far.</p>
+<img src="/2017/10/13/ledger/summary.png" class="">
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/command-line/" rel="tag">command line</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ledger/" rel="tag">ledger</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/money/" rel="tag">money</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <article id="post-jira-command-line" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/10/12/jira-command-line/">Using JIRA from the CLI</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2017/10/12/jira-command-line/" class="article-date">
+  <time datetime="2017-10-12T15:00:00.000Z" itemprop="datePublished">2017-10-12</time>
+</a>
+      
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/management/">management</a><span>></span><a class="article-category-link" href="/categories/management/time-tracking/">time tracking</a>
+  </div>
+
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Some cool things you can do with JIRA from the command line.</p>
+<p><a target="_blank" rel="noopener" href="https://github.com/germanrcuriel/jira-cmd">https://github.com/germanrcuriel/jira-cmd</a></p>
+
+      
+    </div>
+    
+    
+      <footer class="article-footer">
+        
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/command-line/" rel="tag">command line</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/jira/" rel="tag">jira</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/time/" rel="tag">time</a></li></ul>
+
+
+        
+      </footer>
+    
+  </div>
+  
+</article>
+
+
+
+    
+      <nav id="page-nav">
+        <a class="extend prev" rel="prev" href="/">&laquo; Prev</a><a class="page-number" href="/">1</a><span class="page-number current">2</span><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/3/">Next &raquo;</a>
+      </nav>
+    </section>
+    <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2026 Michel Hua
+    </div>
+  </div>
+</footer>
+
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+  </div>
+</body>
+</html>
