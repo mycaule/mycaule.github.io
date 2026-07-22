@@ -8,4 +8,4 @@ categories:
 
 {% youtube 8o5IWOKl2gA %}
 
-{% dailymotion.com x5e8pyi %}
+{% dailymotion x5e8pyi %}
