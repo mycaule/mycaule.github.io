@@ -9,7 +9,7 @@ categories:
 - dancing
 ---
 
-Fred Astaire doing the ceiling dance that inspired the technique behind the upside down hotel fight in Inception.
+Fred Astaire performing the ceiling dance that inspired the technique behind the upside-down hotel fight in *Inception*.
 
 {% youtube ac6o8PXthzQ %}
 

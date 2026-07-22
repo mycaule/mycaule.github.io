@@ -9,7 +9,7 @@ categories:
 - aikido
 ---
 
-Back with some Aikido videos from the young generation!
-Shirakawa showing the jujitsu roots of aikido, in a very modern and creative style.
+Back with some aikido videos from the younger generation!
+Shirakawa shows the jujitsu roots of aikido in a very modern and creative style.
 
 {% youtube jfN2vwOcwgU %}

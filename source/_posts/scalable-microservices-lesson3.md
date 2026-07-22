@@ -9,30 +9,30 @@ category:
 - microservices
 ---
 
-Today infrastructure is more about choose of tools rather than developing yourself. IT today is about higher level services.
+Infrastructure today is more about choosing tools than building them yourself. IT has moved up to higher-level services.
 
-Kubernetes is an abstraction for containers. It enables to treat a entire cluster like a single machine.
+Kubernetes is an abstraction over containers. It lets you treat an entire cluster as if it were a single machine.
 
-Pod have an IP address and can access volumes, they are apps containers.
+Pods have an IP address and can access volumes; they are the containers your apps run in.
 
 Using nginx to reverse proxy the app in HTTPS:
 {% youtube iL_L3nIJ3dQ %}
 
-Monitoring and Health checks : https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/
+Monitoring and health checks: https://kubernetes.io/docs/tasks/configure-pod-container/configure-liveness-readiness-probes/
 Configuration: http://kubernetes.io/docs/user-guide/configmap/
 Secrets: http://kubernetes.io/docs/user-guide/secrets/
 
-Configuration and secrets files are accessed through mounted volumes defined in the kubernetes YAML configuration file after loading the `secrets` and `configmap` on the master node.
+Configuration and secrets files are accessed through mounted volumes defined in the Kubernetes YAML configuration file, once the `secrets` and `configmap` have been loaded on the master node.
 
-Service is another level of abstraction: it is a set of identical pods.
+A service is another level of abstraction: a set of identical pods.
 
 Services: http://kubernetes.io/docs/user-guide/services/
 
 Sample configuration files: https://github.com/udacity/ud615/tree/master/kubernetes
 
-###Useful commands
+### Useful commands
 
-Create a Kubernetes cluster
+Create a Kubernetes cluster.
 
 ```
 gcloud container clusters create k0
@@ -45,7 +45,7 @@ Create a pod.
 kubectl create -f [yaml-file]
 ```
 
-Port forwarding between the cluster and the master machine.
+Forward a port between the cluster and the master machine.
 
 ```
 kubectl port-forward monolith 10080:80
@@ -53,7 +53,7 @@ kubectl port-forward monolith 10080:80
 kubectl logs -f monolith
 ```
 
-Executing from within the container
+Execute a command from within the container.
 ```
 kubectl exec monolith --stdin --tty -c monolith /bin/sh
 ```

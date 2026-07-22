@@ -9,6 +9,6 @@ categories:
 - tango
 ---
 
-Nice accordion solo from *Piazzolla Forever*.
+A nice accordion solo from *Piazzolla Forever*.
 
 {% youtube quZuGOcmVQ0 %}

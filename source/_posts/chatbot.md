@@ -7,5 +7,6 @@ categories:
 - projects
 ---
 
-See https://github.com/mycaule/ama-bot
-To be documented.
+See [ama-bot](https://github.com/mycaule/ama-bot).
+
+Still to be documented.

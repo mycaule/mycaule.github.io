@@ -12,4 +12,4 @@ categories:
 Interesting video about black & white vision vs. color vision.
 {% youtube vubuBrcAwtY %}
 
-Check also [Pixar online course](https://www.khanacademy.org/partner-content/pixar/color) on how they color in 3D animation. There is also [some research](https://github.com/emilwallner/Coloring-greyscale-images-in-Keras) going on in Artificial Intelligence to automatically color images.
+Also check out Pixar's [online course](https://www.khanacademy.org/partner-content/pixar/color) on how they handle color in 3D animation. There is [research](https://github.com/emilwallner/Coloring-greyscale-images-in-Keras) going on in artificial intelligence to color images automatically.

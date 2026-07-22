@@ -6,15 +6,13 @@ tags:
 - microservices
 ---
 
-In production, define deployments to setup replicas in case of failure.
-Modify deployments.
-Rolling updates.
+In production, define deployments to set up replicas in case of failure, then modify those deployments to roll out updates gradually.
 
-Works ideally with this stack, and might need tweaking if changing any of the below components:
+This works best with the stack below; changing any of these components may require some tweaking:
 - Any continuous integration build tool
-- Container technology : Docker
+- Container technology: Docker
 - Kubernetes
-- Cloud platform : Google Cloud Platform
+- Cloud platform: Google Cloud Platform
 
 
 ```

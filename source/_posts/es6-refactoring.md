@@ -16,23 +16,23 @@ I recently worked on a refactoring of [Tracery](https://github.com/galaxykate/tr
 
 The library had two repositories to maintain the same code.
 
-I unified the build starting from the Node.js library and then build the browser library using Webpack.
+I unified the build, starting from the Node.js library and then building the browser library with Webpack.
 
-Proper linting can solves lots of issues, [`xo`](https://github.com/sindresorhus/xo) is a nice tool that does most of the job. It has an atom plugin and can implement [`eslint`](https://eslint.org) rules as well. Lots of improvements to the language have been made since *ES6*.
+Proper linting solves a lot of issues, and [`xo`](https://github.com/sindresorhus/xo) is a nice tool that does most of the work. It has an Atom plugin and can enforce [`eslint`](https://eslint.org) rules as well. Plenty of improvements have been made to the language since *ES6*.
 
-Unit tests are important, I used [`ava`](https://github.com/avajs/ava) and [atom plugin](https://github.com/avajs/atom-ava) to write basic typing verification tests first then gradually added more functional tests.
+Unit tests matter just as much. I used [`ava`](https://github.com/avajs/ava) and its [Atom plugin](https://github.com/avajs/atom-ava) to write basic type-checking tests first, then gradually added more functional ones.
 
 ## Packaging for NPM
 
-Keys to success are:
+The keys to success are:
 - Writing a clean README file
-- Use logo and badges to communicate to users that the library is actively maintained
+- Using a logo and badges to signal that the library is actively maintained
 
 ## Refactoring for good
 
-Once this security net is set up, all the refactoring tasks are easy:
-- Splitting up the files into classes.
-- Cleaning bad smells (for loops, linting errors)
-- Functional style programming make the code easier to read and maintainable in the future.
+Once this safety net is in place, the refactoring itself is easy:
+- Splitting the files into classes
+- Cleaning up code smells (`for` loops, linting errors)
+- Moving to a functional style, which makes the code easier to read and to maintain
 
-Now the library can evolve and use ES6 sugar syntax, spread operators and generators are interesting for the matter. If you want to contribute please go to the [GitHub repo](https://github.com/galaxykate/tracery)
+Now the library can evolve and use ES6 syntactic sugar; spread operators and generators are particularly useful here. If you want to contribute please go to the [GitHub repo](https://github.com/galaxykate/tracery)

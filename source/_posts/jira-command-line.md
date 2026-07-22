@@ -10,6 +10,6 @@ category:
 - time tracking
 ---
 
-Some cool stuff you can do with JIRA inside the command line.
+Some cool things you can do with JIRA from the command line.
 
 https://github.com/germanrcuriel/jira-cmd

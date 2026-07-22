@@ -8,6 +8,6 @@ category:
 - tango
 ---
 
-Interesting waltz steps from a scene in the Tango Lesson movie.
+Interesting waltz steps from a scene in the film *The Tango Lesson*.
 
 {% youtube 2EJRhLgf1yU %}

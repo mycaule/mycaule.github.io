@@ -8,21 +8,21 @@ category:
 - paris
 ---
 
-Some resource to the french ecosystem of startups in Paris:
+Some resources on the French startup ecosystem in Paris:
 
 ## Friendly startups
 
-- [Lulu dans ma rue](https://www.luludansmarue.org) has support from Mairie de Paris and provide door to door services for parisians.
-- [Frichti](https://www.frichti.co) is a fresh food delivery service. Has an original concept
-- [Jam](https://www.hellojam.fr) is a online assistant for young parisians to help them go organizing their student life.
+- [Lulu dans ma rue](https://www.luludansmarue.org) is backed by the Mairie de Paris and provides door-to-door services for Parisians.
+- [Frichti](https://www.frichti.co) is a fresh food delivery service with an original concept.
+- [Jam](https://www.hellojam.fr) is an online assistant that helps young Parisians organize their student life.
 - [Pretty Simple](https://www.prettysimplegames.com) is an online game editor.
 
 ## Community
 
-- [Rude baguette](http://www.rudebaguette.com) is the best blog for news about the French startups scene.
-- [L'Usine Digitale](https://www.usine-digitale.fr/french-tech/) online news about french technology.
-- [Meetup](https://www.meetup.com) has a lot of tech events every week hosted in large companies parisian offices (Mozilla, Criteo, Le Bon Coin, Microsoft, Google, Societe Generale...)
-- [Let's Run Paris](https://www.meetup.com/Lets-Run-Paris/) Cool Meetup group with expats (mainly Americans but not only) if you like running and want to discover the best routes in Paris.
+- [Rude baguette](http://www.rudebaguette.com) is the best blog for news about the French startup scene.
+- [L'Usine Digitale](https://www.usine-digitale.fr/french-tech/) covers French technology news online.
+- [Meetup](https://www.meetup.com) lists plenty of tech events every week, hosted at the Paris offices of large companies (Mozilla, Criteo, Le Bon Coin, Microsoft, Google, Societe Generale...)
+- [Let's Run Paris](https://www.meetup.com/Lets-Run-Paris/) is a friendly Meetup group of expats (mainly, but not only, Americans) for anyone who likes running and wants to discover the best routes in Paris.
 
 ## Incubators
 
@@ -30,4 +30,4 @@ Some resource to the french ecosystem of startups in Paris:
 
 ## Life in Paris
 
-- [Teleport](https://teleport.org/cities/paris/) gives fair review for foreigners who might want to join Paris for IT jobs.
+- [Teleport](https://teleport.org/cities/paris/) gives a fair overview for foreigners considering a move to Paris for IT work.

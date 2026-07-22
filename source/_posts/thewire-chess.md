@@ -8,7 +8,7 @@ categories:
 - bad ass
 ---
 
-Gangsta teaching his buddies how to play chess.
+A gangster teaching his buddies how to play chess.
 
 {% youtube ztc7o0NzFrE %}
 
