@@ -1,0 +1,60 @@
+name: Build and deploy
+
+on:
+  push:
+    branches: [hexo]
+  pull_request:
+    branches: [hexo]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Deploys force-push to master, so never run two at once. Queue instead of
+# cancelling, so an in-flight publish is not interrupted half way.
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Generate site
+        run: npx hexo generate
+
+      # source/CNAME carries the custom domain. The publish step below replaces
+      # master wholesale, so if this file is ever missing the domain silently
+      # breaks. Fail loudly here instead.
+      - name: Verify CNAME survived the build
+        run: |
+          if [ ! -f public/CNAME ]; then
+            echo "::error::public/CNAME is missing — publishing would drop the custom domain. Check source/CNAME."
+            exit 1
+          fi
+          echo "CNAME: $(cat public/CNAME)"
+
+      - name: Publish to master
+        if: github.event_name != 'pull_request'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd public
+          git init -q -b master
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Site updated: $(date -u '+%Y-%m-%d %H:%M:%S') UTC"
+          git push -q --force \
+            "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" \
+            master

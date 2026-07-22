@@ -30,18 +30,23 @@ committed there directly is wiped by the next deploy.
 flowchart TD
     edit["Write posts in source/"]
     hexo["<b>hexo</b> branch<br/><i>source — default branch, PRs merge here</i>"]
+    ci[".github/workflows/deploy.yml<br/><i>builds on every push to hexo</i>"]
     master["<b>master</b> branch<br/><i>generated output — force-pushed, never hand-edit</i>"]
     live["www.commutator.io<br/><i>GitHub Pages, HTTPS enforced</i>"]
 
     edit --> hexo
-    hexo -->|"npm run deploy — runs locally, not in CI"| master
+    hexo --> ci
+    ci -->|"force-push public/"| master
     master -->|"Pages auto-builds within seconds"| live
 ```
 
-Publishing is automatic, generation is not. There is no CI: nothing watches the
-`hexo` branch, so merging a pull request does not change the live site. The site
-only updates when `npm run deploy` is run locally, which regenerates `public/`
-and force-pushes it to `master`. GitHub Pages then rebuilds on its own.
+The whole chain is automatic: pushing or merging to `hexo` builds the site and
+publishes it, with no local step. Pull requests run the same build without
+publishing, so breakage shows up before it reaches the live site.
+
+`npm run deploy` still works from a laptop and does exactly the same thing, but
+it is only a fallback now — prefer letting CI publish, so what is live always
+matches what is on `hexo`.
 
 ## Using the source code
 
@@ -50,15 +55,15 @@ Requires Node >= 20.19.0 (Hexo 8).
 ```
 npm ci              # install pinned dependencies
 npx hexo server     # preview at http://localhost:4000
-npm run deploy      # generate and publish to master
+npm run deploy      # fallback: generate and publish by hand
 ```
 
-Two things worth knowing before deploying:
+Two things worth knowing:
 
 - `source/CNAME` carries the custom domain. It has to stay in `source/` so Hexo
-  copies it into `public/` on every build — the deploy force-pushes only what is
-  in `public/`, so a `CNAME` living anywhere else gets dropped and the custom
-  domain breaks.
+  copies it into `public/` on every build — publishing replaces `master` with
+  only what is in `public/`, so a `CNAME` living anywhere else gets dropped and
+  the custom domain breaks. CI fails the build if it goes missing.
 - Hexo 7 removed the built-in `youtube` and `vimeo` tags that posts here rely on.
   They are reimplemented in `themes/minos/scripts/video-tags.js` rather than
   pulled in as a dependency.
