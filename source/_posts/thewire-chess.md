@@ -8,7 +8,7 @@ categories:
 - bad ass
 ---
 
-A gangster teaching his buddies how to play chess.
+D'Angelo teaching Bodie and Wallace how the pieces move.
 
 {% youtube ztc7o0NzFrE %}
 
