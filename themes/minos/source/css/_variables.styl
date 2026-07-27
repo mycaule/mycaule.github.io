@@ -2,21 +2,26 @@
 support-for-ie = false
 vendor-prefixes = webkit moz ms official
 
-// Colors
-color-default = #111
-color-grey = #939393
-color-border = #ddd
-color-background = white
+// Colors — remapped to the Commutator design tokens (see css/ds/tokens/colors.css).
+// The theme is variable-driven, so pointing these at var(--token) cascades the
+// brand through every partial. Change the token files, not these names.
+color-default = var(--text-primary)   // ink #17171B
+color-grey = var(--text-muted)        // warm grey #7A776F
+color-border = var(--border-hair)     // hairline #E7E3DA
+color-background = var(--surface-page) // paper #F6F4EF
 
-// Fonts
-font-default = 'PT Serif', 'STZhongsong', '华文中宋', 'Microsoft Yahei', serif
-font-mono = "Source Code Pro", Consolas, Monaco, Menlo, Consolas, monospace, '华文中宋'
+// Fonts — the brand pairs a display serif with the platform monospace as the
+// body face. Headings use font-heading; everything else uses the mono body face.
+font-default = var(--font-body)       // platform monospace (brand body face)
+font-heading = var(--font-display)    // Marcellus, for titles and the logotype
+font-mono = var(--font-mono)
+font-sans = var(--font-body)          // was undefined in the theme; map to body
 font-icon = FontAwesome
 font-icon-path = "fonts/fontawesome-webfont"
 font-icon-version = "4.0.3"
 font-size = 16px
-line-height = 1.4em
-line-height-title = 1em
+line-height = 1.75em                   // --leading-body
+line-height-title = 1.1em              // --leading-display
 
 // Header
 logo-size = 40px

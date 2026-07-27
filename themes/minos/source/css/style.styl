@@ -4,6 +4,12 @@
 
 global-reset()
 
+// Headings carry the display serif; the mono body face carries everything else.
+h1, h2, h3, h4, h5, h6
+  font-family: font-heading
+  font-weight: normal
+  letter-spacing: 0.01em
+
 input, button
   margin: 0
   padding: 0
@@ -59,9 +65,11 @@ body
 
 .logo-text
   width: auto
-  color: black
-  font-size: 24px
-  font-weight: 700
+  color: var(--ink)
+  font-family: font-heading
+  font-size: 26px
+  font-weight: normal
+  letter-spacing: var(--track-logo)
   line-height: 57px
   margin-right: 25px
   text-decoration: none

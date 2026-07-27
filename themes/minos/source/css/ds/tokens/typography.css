@@ -1,0 +1,62 @@
+:root{
+/* Two faces. The display serif carries titles and figures; the platform monospace
+   carries everything else — labels, prose, tables, code. There is no third face. */
+--font-display:"Marcellus",Optima,Palatino,Georgia,serif;
+--font-mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+--font-cjk:"Songti SC","Noto Serif SC","Noto Serif CJK SC","Hiragino Mincho ProN",serif;
+
+--font-body:var(--font-mono);
+--font-heading:var(--font-display);
+--font-code:var(--font-mono);
+
+/* Sizes — the actual values used in the brand book, not a rounded scale. */
+--text-9:9.5px;
+--text-10:10px;
+--text-10-5:10.5px;
+--text-11:11px;
+--text-11-5:11.5px;
+--text-12:12px;
+--text-12-5:12.5px;
+--text-13:13px;
+--text-14:14px;
+--text-15:15px;
+--text-17:17px;
+--text-19:19px;
+--text-21:21px;
+--text-24:24px;
+--text-26:26px;
+--text-30:30px;
+--text-38:38px;
+--text-46:46px;
+--text-52:52px;
+
+--display-sm:21px;
+--display-md:26px;
+--display-lg:38px;
+--display-xl:46px;
+--display-2xl:52px;
+
+/* Tracking. The label track is the brand's loudest typographic signal. */
+--track-logo:0.05em;
+--track-display:0.01em;
+--track-tight:0.14em;
+--track-micro:0.16em;
+--track-label:0.2em;
+--track-caps:0.22em;
+--track-wide:0.24em;
+
+/* Leading */
+--leading-display:1.1;
+--leading-title:1.25;
+--leading-caption:1.7;
+--leading-body:1.75;
+--leading-prose:1.8;
+--leading-flat:1;
+
+--weight-regular:400;
+
+/* Measure — prose is always capped in ch, never in px. */
+--measure-narrow:66ch;
+--measure:74ch;
+--measure-wide:78ch;
+}
