@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: The other day
-subtitle: One post every day for one year
-description: Ideas, productivity tips and other hacks
+title: Aiguillage
+subtitle: une voie, puis une autre
+description: Notes on code, martial arts, dance and whatever else the switch routes to
 author: Michel Hua
 language: en
 timezone: Europe/Paris
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://mycaule.github.io/
+url: https://mycaule.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:

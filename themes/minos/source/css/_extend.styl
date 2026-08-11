@@ -1,13 +1,16 @@
+// Links are the brand accent: cinabre with a faint underline, darkening to
+// brique on hover. Interaction changes ink and nothing else — no lift or glow.
 $link
-  color: color-default
+  color: var(--link)
   text-decoration: none
-  border-bottom: 1px dotted transparent
+  border-bottom: 1px solid var(--link-underline)
+  transition: color var(--dur-state) var(--ease-out), border-color var(--dur-state) var(--ease-out)
   &:hover
-    border-bottom-color: black
-    
+    color: var(--link-hover)
+    border-bottom-color: var(--link-hover)
+
 $link-highlight
   @extends $link
-  border-bottom: 1px dotted black
 
 $base-style
   h1

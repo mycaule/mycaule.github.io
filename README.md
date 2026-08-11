@@ -32,7 +32,7 @@ flowchart TD
     hexo["<b>hexo</b> branch<br/><i>source — default branch, PRs merge here</i>"]
     ci[".github/workflows/deploy.yml<br/><i>builds on every push to hexo</i>"]
     master["<b>master</b> branch<br/><i>generated output — force-pushed, never hand-edit</i>"]
-    live["www.commutator.io<br/><i>GitHub Pages, HTTPS enforced</i>"]
+    live["mycaule.github.io<br/><i>GitHub Pages, HTTPS enforced</i>"]
 
     edit --> hexo
     hexo --> ci
@@ -60,10 +60,10 @@ npm run deploy      # fallback: generate and publish by hand
 
 Two things worth knowing:
 
-- `source/CNAME` carries the custom domain. It has to stay in `source/` so Hexo
-  copies it into `public/` on every build — publishing replaces `master` with
-  only what is in `public/`, so a `CNAME` living anywhere else gets dropped and
-  the custom domain breaks. CI fails the build if it goes missing.
+- No custom domain. The blog is served at `mycaule.github.io`;
+  `www.commutator.io` now belongs to the consulting site. There is deliberately
+  no `source/CNAME`, so each deploy publishes a `public/` without one and any
+  stale custom domain on `master` is cleared rather than reclaimed.
 - Hexo 7 removed the built-in `youtube` and `vimeo` tags that posts here rely on.
   They are reimplemented in `themes/minos/scripts/video-tags.js` rather than
   pulled in as a dependency.
