@@ -1,0 +1,38 @@
+:root{
+/* One hairline, one rule, one strong rule. No shadows anywhere in the system. */
+--border-width-hair:1px;
+--border-width-accent:1.5px;
+--border-width-strong:2px;
+
+--border-card:1px solid var(--border-hair);
+--border-card-accent:1px solid var(--border-accent);
+--border-card-dashed:1px dashed var(--grey-c9);
+--border-section:1px solid var(--border-rule);
+--border-part:2px solid var(--ink);
+
+--radius-none:0;
+--radius-round:50%;
+
+/* Frames: round only. A square red frame reads as a seal — forbidden isolated. */
+--frame-shape:var(--radius-round);
+
+--shadow-none:none;
+
+/* Mark geometry, from the 100×100 grid */
+--mark-grid:100; /* @kind other */
+--mark-stroke:6.2;
+--mark-stroke-sm:6.6;
+--mark-stroke-compact:8.4;
+--mark-stroke-broderie:9;
+--mark-ghost-stroke:2.7;
+--mark-disc-scale:0.77; /* @kind other */
+--mark-repentir-floor:40px;
+--mark-amorce-floor:26px;
+--mark-min:16px;
+--mark-center-clear:14; /* @kind other */
+--mark-bar-overhang:5; /* @kind other */
+
+/* Screened plane: the only fill pattern in the system (§ architecture slide) */
+--screen-dot:radial-gradient(var(--dot-e6) 1.4px, transparent 1.4px);
+--screen-dot-size:9px 9px;
+}
