@@ -33,16 +33,10 @@ jobs:
       - name: Generate site
         run: npx hexo generate
 
-      # source/CNAME carries the custom domain. The publish step below replaces
-      # master wholesale, so if this file is ever missing the domain silently
-      # breaks. Fail loudly here instead.
-      - name: Verify CNAME survived the build
-        run: |
-          if [ ! -f public/CNAME ]; then
-            echo "::error::public/CNAME is missing — publishing would drop the custom domain. Check source/CNAME."
-            exit 1
-          fi
-          echo "CNAME: $(cat public/CNAME)"
+      # No custom domain: the blog is served at mycaule.github.io and
+      # www.commutator.io now belongs to the consulting site. The publish step
+      # replaces master wholesale with public/, which carries no CNAME, so the
+      # next deploy clears any stale custom domain rather than claiming one.
 
       - name: Publish to master
         if: github.event_name != 'pull_request'
