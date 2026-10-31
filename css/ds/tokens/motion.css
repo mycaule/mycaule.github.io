@@ -1,0 +1,18 @@
+:root{
+/* One easing: the commutation. Symmetric, fast in the middle, still at both ends. */
+--ease-commut:cubic-bezier(0.76,0,0.24,1); /* @kind other */
+--ease-out:cubic-bezier(0.2,0,0.2,1); /* @kind other */
+
+--dur-commut:4.2s; /* @kind other */   /* the full open→closed→open cycle */
+--dur-state:180ms; /* @kind other */   /* hover, press, disclosure */
+--dur-page:260ms; /* @kind other */
+
+/* Hover is a change of ink, never a lift, glow or scale.
+   Press is a darker ink, never a shrink. */
+--hover-ink:var(--red-brique);
+--press-ink:var(--red-brique);
+--hover-rule:var(--ink);
+}
+
+@keyframes commut{0%,34%{transform:translateY(0)}50%,84%{transform:translateY(58.6px)}100%{transform:translateY(0)}}
+@keyframes trace-in{from{opacity:0}to{opacity:1}}

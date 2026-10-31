@@ -1,0 +1,38 @@
+:root{
+/* Gaps, measured. The system is not a 4/8 grid — it is the set of values used. */
+--space-2:2px;
+--space-4:4px;
+--space-5:5px;
+--space-6:6px;
+--space-9:9px;
+--space-10:10px;
+--space-12:12px;
+--space-14:14px;
+--space-16:16px;
+--space-18:18px;
+--space-20:20px;
+--space-22:22px;
+--space-26:26px;
+--space-28:28px;
+--space-30:30px;
+--space-34:34px;
+--space-40:40px;
+--space-44:44px;
+--space-48:48px;
+--space-56:56px;
+--space-64:64px;
+--space-92:92px;
+--space-96:96px;
+
+/* Recurring compounds */
+--gap-grid:28px;          /* the default card grid gap */
+--gap-grid-row:26px;
+--gap-section:92px;       /* between numbered sections */
+--gap-stack:18px;         /* figure to its caption */
+--gap-caption:5px;        /* inside a caption block */
+--pad-card:26px;
+--pad-card-lg:40px 44px;
+--pad-page:64px 56px 96px;
+--rule-pad:14px;          /* text offset below a section rule */
+--clear-space:0.5;        /* protection zone = half the sign's width, four sides */
+}

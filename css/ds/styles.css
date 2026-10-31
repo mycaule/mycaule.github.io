@@ -1,0 +1,18 @@
+/* Commutator design system — theme entry point.
+ *
+ * Imported from the "Commutator Design System" Claude Design project
+ * (a559029b). This mirrors the project's own styles.css, minus tokens/deck.css:
+ * the deck tokens only drive 1920x1080 slide specimens and have no use in the
+ * blog. Everything the Hexo theme reads (colours, type, spacing, borders,
+ * motion) lives in the files below.
+ *
+ * The theme consumes these via var(--token) references remapped in
+ * _variables.styl; do not edit the tokens here to restyle — change the mapping.
+ */
+@import url("tokens/fonts.css");
+@import url("tokens/colors.css");
+@import url("tokens/typography.css");
+@import url("tokens/spacing.css");
+@import url("tokens/borders.css");
+@import url("tokens/motion.css");
+@import url("tokens/base.css");

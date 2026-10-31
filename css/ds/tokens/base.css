@@ -1,0 +1,14 @@
+/* Minimal element defaults. Components carry their own styling; this only makes
+   a bare page look like the brand instead of like a browser. */
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--surface-page);color:var(--text-primary);font-family:var(--font-body);font-size:var(--text-13);line-height:var(--leading-body);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--font-heading);font-weight:var(--weight-regular);letter-spacing:var(--track-display);line-height:var(--leading-display);margin:0}
+p{margin:0;text-wrap:pretty}
+a{color:var(--link);text-decoration:none;border-bottom:1px solid var(--link-underline);transition:color var(--dur-state) var(--ease-out),border-color var(--dur-state) var(--ease-out)}
+a:hover{color:var(--link-hover);border-bottom-color:var(--link-hover)}
+a:focus-visible{outline:1px solid var(--focus-ring);outline-offset:3px}
+code,pre,kbd{font-family:var(--font-code)}
+hr{border:0;border-top:1px solid var(--border-rule);margin:0}
+::selection{background:var(--cinabre);color:var(--paper)}
+strong{font-weight:var(--weight-regular);color:var(--text-primary)}
+em{font-family:var(--font-display);font-style:italic}

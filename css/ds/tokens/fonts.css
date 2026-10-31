@@ -1,0 +1,28 @@
+/* ── Display face ───────────────────────────────────────────────────────────
+   ADOPTED: Marcellus. The brand was drawn in Optima, which is licensed and was
+   not available, so the web substitute the brand book itself declares is now the
+   display face of record — loaded from Google Fonts, first in --font-display, and
+   rendering identically for every visitor.
+
+   Optima remains in the stack behind it with a local() src, as a courtesy to a
+   machine that has it installed; it is no longer the reference drawing.
+
+   Marcellus is single-weight and Trajan-adjacent: narrower t with a shorter bar
+   than Optima. The logotype's ten kerning pairs were therefore RE-MEASURED on
+   Marcellus (total −0.090 em, against −0.153 em on Optima) — see Wordmark.jsx.
+
+   ── Body face ──────────────────────────────────────────────────────────────
+   The platform monospace, by design. No webfont is loaded for it.
+
+   ── CJK ────────────────────────────────────────────────────────────────────
+   Songti SC likewise stays first with a local() src; Noto Serif SC is the web
+   substitute. Used only in the internal colophon block.
+   ───────────────────────────────────────────────────────────────────────── */
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400&display=swap");
+
+@font-face{font-family:"Marcellus";font-style:normal;font-weight:400;font-display:swap;src:url("https://fonts.gstatic.com/s/marcellus/v14/wEO_EBrOk8hQLDvIAF8FUQ.ttf") format("truetype")}
+
+@font-face{font-family:"Optima";font-style:normal;font-weight:400;font-display:swap;src:local("Optima"),local("Optima Regular"),local("Optima Nova"),local("URW Classico")}
+
+@font-face{font-family:"Songti SC";font-style:normal;font-weight:400;font-display:swap;src:local("Songti SC"),local("Songti"),local("SimSun"),local("Noto Serif CJK SC")}
